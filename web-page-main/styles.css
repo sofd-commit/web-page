@@ -1,0 +1,6 @@
+.navigation{
+    list-style: none;
+}
+.check-marker{
+    list-style-image: url(./assets/icons/Check.svg);
+}

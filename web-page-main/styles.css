@@ -3,39 +3,36 @@
 *::after {
     box-sizing: border-box;
 }
-
 *{
     margin: 0;
     padding: 0;
 }
-
 ul{
     list-style: none;
 }
-
 a{
     text-decoration: none;
 }
-
-
-/* variables */
+button{
+    border: none;
+    background-color: transparent;
+}
+/* variables-colors */
 :root{
     --clr-primary: #0a61f7;
     --clr-neutral: #95a1bb;
     --clr-text: #363940;
     --clr-white: #fff;
-
 }
-
+html, 
 body{
     font-family: "Rubik", sans-serif;
 }
-.logo{
+.header{
     background-color: var(--clr-primary);
-    padding: 14px 130px;
+    padding: 14px 0px;
 }
-
-.navigation{
+.nav-menu li{
     font-weight: 500;
     font-size: 12px;
     line-height: 167%;
@@ -43,16 +40,76 @@ body{
     text-transform: uppercase;
     color: var(--clr-white);
 }
-
-h1{
+.main-title{
     font-weight: 500;
     font-size: 58px;
     line-height: 117%;
+    margin: 0px 0px 30px;
 }
-
-p{
+.title{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 125%;
+    color: var(--clr-text);
+}
+.text{
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     color: var(--clr-neutral);
+    margin: 0px 0px 40px;
+}
+.button{
+    border-radius: 4px;
+    width: 152px;
+    height: 50px;
+    background-color: var(--clr-primary);
+    color: var(--clr-white);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.rates-table{
+    border-collapse: collapse;
+    border-color: var(--clr-neutral);
+}
+.table-title{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 122%;
+    color: var(--clr-text);
+}
+.table-subtitle{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: var(--clr-text)
+}
+.first{
+    color: var(--clr-neutral);
+}
+.table-link{
+    color: var(--clr-primary);
+}
+.table-button{
+    border: 1px solid var(--clr-primary);
+    border-radius: 4px;
+    width: 140px;
+    height: 36px; 
+    padding: 8px 0;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 163%;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--clr-primary);
+}
+th, td{
+    border: 1px solid var(--clr-neutral);
+    width: 240px;
+    padding: 15px 0;
+    text-align: center;
 }
